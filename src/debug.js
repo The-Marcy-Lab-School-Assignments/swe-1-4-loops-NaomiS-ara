@@ -1,4 +1,4 @@
-function brokenLoop () {
+const brokenLoop = () => {
   let result = '';
   for (let i = 0; i < 10; i++) {
     result += i;
@@ -6,7 +6,7 @@ function brokenLoop () {
   return result;
 }
 
-function brokenNested() {
+const brokenNested = () => {
   let result = '';
   for (let i = 0; i < 2; i++) {
     for (let j = 0; j < 10; j++) {
